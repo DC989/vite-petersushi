@@ -1,3 +1,3 @@
-import "./index.css";
-
+import "flowbite";
 import "lazysizes";
+import "./index.css";
