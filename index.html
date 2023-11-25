@@ -8,158 +8,1165 @@
   </head>
   <body>
     <div id="app">
-      <div class="container">
-        <h3 class="font-serif text-gray-900">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum quae
-          maiores autem recusandae, nisi culpa numquam facere saepe possimus
-          pariatur officia suscipit laborum doloribus voluptates ea hic voluptas
-          excepturi unde?
-        </h3>
-        <p class="font-sans text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dicta
-          veritatis ab, id excepturi, et quia tenetur ex suscipit nesciunt quae
-          incidunt alias labore ducimus quidem nulla. Cumque, reiciendis ut.
-        </p>
-      </div>
+      <header>
+        <nav class="border-gray-200 bg-white dark:bg-gray-900">
+          <div
+            class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4"
+          >
+            <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+              <img
+                src="./src/assets/img/logo-min.png"
+                class="h-logoHeader"
+                alt="Peter's Sushi & Thailogo"
+              />
+            </a>
+            <button
+              data-collapse-toggle="navbar-default"
+              type="button"
+              class="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
+              aria-controls="navbar-default"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="h-5 w-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+              <ul
+                class="mt-4 flex flex-col items-center justify-between border border-gray-100 bg-gray-50 p-4 font-serif text-sm uppercase tracking-wider rtl:space-x-reverse dark:border-gray-700 dark:bg-gray-800 md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 md:dark:bg-gray-900 lg:flex lg:text-base"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="block bg-blue-700 px-3 py-2 text-black dark:text-white md:bg-transparent md:p-0 md:text-blue-700 md:dark:text-blue-500"
+                    aria-current="page"
+                    >Sushi Menu</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block px-3 py-2 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
+                    >Lunch Menu</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block px-3 py-2 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
+                    >Dinner Menu</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="/story"
+                    class="block px-3 py-2 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
+                    >Our Story</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
 
-      <div id="default-carousel" class="relative w-full" data-carousel="slide">
-        <!-- Carousel wrapper -->
-        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-          <!-- Item 1 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img
-              src="./src/assets/img/gtr-1.avif"
-              class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
-              alt="..."
-            />
-          </div>
-          <!-- Item 2 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img
-              src="./src/assets/img/gtr-2.webp"
-              class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
-              alt="..."
-            />
-          </div>
-          <!-- Item 3 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img
-              src="./src/assets/img/gtr-3.jpeg"
-              class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
-              alt="..."
-            />
-          </div>
-          <!-- Item 4 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img
-              src="./src/assets/img/gtr-4.avif"
-              class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
-              alt="..."
-            />
-          </div>
-          <!-- Item 5 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img
-              src="./src/assets/img/gtr-5.avif"
-              class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
-              alt="..."
-            />
-          </div>
-        </div>
-        <!-- Slider indicators -->
-        <div
-          class="absolute bottom-5 left-1/2 z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse"
-        >
-          <button
-            type="button"
-            class="h-3 w-3 rounded-full"
-            aria-current="true"
-            aria-label="Slide 1"
-            data-carousel-slide-to="0"
-          ></button>
-          <button
-            type="button"
-            class="h-3 w-3 rounded-full"
-            aria-current="false"
-            aria-label="Slide 2"
-            data-carousel-slide-to="1"
-          ></button>
-          <button
-            type="button"
-            class="h-3 w-3 rounded-full"
-            aria-current="false"
-            aria-label="Slide 3"
-            data-carousel-slide-to="2"
-          ></button>
-          <button
-            type="button"
-            class="h-3 w-3 rounded-full"
-            aria-current="false"
-            aria-label="Slide 4"
-            data-carousel-slide-to="3"
-          ></button>
-          <button
-            type="button"
-            class="h-3 w-3 rounded-full"
-            aria-current="false"
-            aria-label="Slide 5"
-            data-carousel-slide-to="4"
-          ></button>
-        </div>
-        <!-- Slider controls -->
-        <button
-          type="button"
-          class="group absolute start-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-          data-carousel-prev
-        >
-          <span
-            class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70"
+      <main>
+        <section id="section-carousel">
+          <div
+            id="default-carousel"
+            class="relative w-full"
+            data-carousel="slide"
           >
-            <svg
-              class="h-4 w-4 text-white rtl:rotate-180 dark:text-gray-800"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 6 10"
+            <!-- Carousel wrapper -->
+            <div
+              class="relative h-carousel overflow-hidden sm:h-carouselSm md:h-carouselMd lg:h-carouselLg xl:h-carouselXl 2xl:h-carouselXxl"
             >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M5 1 1 5l4 4"
-              />
-            </svg>
-            <span class="sr-only">Previous</span>
-          </span>
-        </button>
-        <button
-          type="button"
-          class="group absolute end-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-          data-carousel-next
-        >
-          <span
-            class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70"
-          >
-            <svg
-              class="h-4 w-4 text-white rtl:rotate-180 dark:text-gray-800"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 6 10"
+              <!-- Item 1 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="./src/assets/img/carousel-img-1-min.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 2 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="./src/assets/img/carousel-img-2-min.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 3 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="./src/assets/img/carousel-img-3-min.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 4 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="./src/assets/img/carousel-img-4-min.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 5 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="./src/assets/img/carousel-img-5-min.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 6 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="./src/assets/img/carousel-img-6-min.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 7 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="./src/assets/img/carousel-img-7-min.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 8 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="./src/assets/img/carousel-img-8-min.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 9 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="./src/assets/img/carousel-img-9-min.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 10 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="./src/assets/img/carousel-img-10-min.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 11 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="./src/assets/img/carousel-img-11-min.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 12 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="./src/assets/img/carousel-img-12-min.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 13 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="./src/assets/img/carousel-img-13-min.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 14 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="./src/assets/img/carousel-img-14-min.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 15 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="./src/assets/img/carousel-img-15-min.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 16 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="./src/assets/img/carousel-img-16-min.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 17 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="./src/assets/img/carousel-img-17-min.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 18 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="./src/assets/img/carousel-img-18-min.png"
+                  class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <!-- Slider indicators -->
+            <div
+              class="absolute bottom-5 left-1/2 z-30 hidden -translate-x-1/2 space-x-3 rtl:space-x-reverse sm:flex"
             >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="m1 9 4-4-4-4"
-              />
-            </svg>
-            <span class="sr-only">Next</span>
-          </span>
-        </button>
-      </div>
+              <button
+                type="button"
+                class="h-3 w-3 rounded-full"
+                aria-current="true"
+                aria-label="Slide 1"
+                data-carousel-slide-to="0"
+              ></button>
+              <button
+                type="button"
+                class="h-3 w-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 2"
+                data-carousel-slide-to="1"
+              ></button>
+              <button
+                type="button"
+                class="h-3 w-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 3"
+                data-carousel-slide-to="2"
+              ></button>
+              <button
+                type="button"
+                class="h-3 w-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 4"
+                data-carousel-slide-to="3"
+              ></button>
+              <button
+                type="button"
+                class="h-3 w-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 5"
+                data-carousel-slide-to="4"
+              ></button>
+              <button
+                type="button"
+                class="h-3 w-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 5"
+                data-carousel-slide-to="5"
+              ></button>
+              <button
+                type="button"
+                class="h-3 w-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 5"
+                data-carousel-slide-to="6"
+              ></button>
+              <button
+                type="button"
+                class="h-3 w-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 5"
+                data-carousel-slide-to="7"
+              ></button>
+              <button
+                type="button"
+                class="h-3 w-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 5"
+                data-carousel-slide-to="8"
+              ></button>
+              <button
+                type="button"
+                class="h-3 w-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 5"
+                data-carousel-slide-to="9"
+              ></button>
+              <button
+                type="button"
+                class="h-3 w-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 5"
+                data-carousel-slide-to="10"
+              ></button>
+              <button
+                type="button"
+                class="h-3 w-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 5"
+                data-carousel-slide-to="11"
+              ></button>
+              <button
+                type="button"
+                class="h-3 w-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 5"
+                data-carousel-slide-to="12"
+              ></button>
+              <button
+                type="button"
+                class="h-3 w-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 5"
+                data-carousel-slide-to="13"
+              ></button>
+              <button
+                type="button"
+                class="h-3 w-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 5"
+                data-carousel-slide-to="14"
+              ></button>
+              <button
+                type="button"
+                class="h-3 w-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 5"
+                data-carousel-slide-to="15"
+              ></button>
+              <button
+                type="button"
+                class="h-3 w-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 5"
+                data-carousel-slide-to="16"
+              ></button>
+              <button
+                type="button"
+                class="h-3 w-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 5"
+                data-carousel-slide-to="17"
+              ></button>
+            </div>
+            <!-- Slider controls -->
+            <button
+              type="button"
+              class="group absolute start-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70"
+              >
+                <svg
+                  class="h-4 w-4 text-white rtl:rotate-180 dark:text-gray-800"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 6 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 1 1 5l4 4"
+                  />
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="group absolute end-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70"
+              >
+                <svg
+                  class="h-4 w-4 text-white rtl:rotate-180 dark:text-gray-800"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 6 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 9 4-4-4-4"
+                  />
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
+          </div>
+        </section>
+
+        <section id="section-sushi" class="py-14 md:pb-36 md:pt-24">
+          <div class="container">
+            <div class="section-sushi__item">
+              <h2
+                class="pb-5 text-center font-serif text-5xl tracking-wider text-primary md:pb-11"
+              >
+                SUSHI
+              </h2>
+              <h3 class="pb-2.5 text-center font-serif tracking-wider">
+                NIGIRI SUSHI
+              </h3>
+              <h4 class="text-center text-secondary">2 pieces per order</h4>
+
+              <div
+                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+              >
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Tuna</span>
+                      <span class="text-primary"><small>$</small>8</span>
+                    </div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Salmon</span>
+                      <span class="text-primary"><small>$</small>7.5</span>
+                    </div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Yellow Tail</span>
+                      <span class="text-primary"><small>$</small>8</span>
+                    </div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Eel</span>
+                      <span class="text-primary"><small>$</small>8.5</span>
+                    </div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Shrimp</span>
+                      <span class="text-primary"><small>$</small>6</span>
+                    </div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">White Fish</span>
+                      <span class="text-primary"><small>$</small>6</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Smelt Roe</span>
+                      <span class="text-primary"><small>$</small>6.5</span>
+                    </div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Sweet Shrimp</span>
+                      <span class="text-primary"><small>$</small>8</span>
+                    </div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Crab Stick</span>
+                      <span class="text-primary"><small>$</small>6</span>
+                    </div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Mackerel</span>
+                      <span class="text-primary"><small>$</small>5.5</span>
+                    </div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Smoked Salmon</span>
+                      <span class="text-primary"><small>$</small>7.5</span>
+                    </div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Salmon Roe</span>
+                      <span class="text-primary"><small>$</small>7</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Octopus</span>
+                      <span class="text-primary"><small>$</small>8</span>
+                    </div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Scallop</span>
+                      <span class="text-primary"><small>$</small>8.5</span>
+                    </div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Albacore Tuna</span>
+                      <span class="text-primary"><small>$</small>8</span>
+                    </div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Egg</span>
+                      <span class="text-primary"><small>$</small>4.5</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-sushi__item">
+              <h3 class="pb-2.5 text-center font-serif tracking-wider">
+                ROLLS
+              </h3>
+              <h4 class="text-center text-secondary">seaweed outside</h4>
+
+              <div
+                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+              >
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Cucumber Roll</span>
+                      <span class="text-primary"><small>$</small>5</span>
+                    </div>
+                    <div>8 pieces</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Salmon Roll</span>
+                      <span class="text-primary"><small>$</small>8</span>
+                    </div>
+                    <div>8 pieces</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Tuna Roll</span>
+                      <span class="text-primary"><small>$</small>8</span>
+                    </div>
+                    <div>8 pieces</div>
+                  </div>
+                </div>
+
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Spicy Tuna Roll</span>
+                      <span class="text-primary"><small>$</small>8</span>
+                    </div>
+                    <div>8 pieces</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Futomaki</span>
+                      <span class="text-primary"><small>$</small>8</span>
+                    </div>
+                    <div>5 pieces</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Spider Roll</span>
+                      <span class="text-primary"><small>$</small>14</span>
+                    </div>
+                    <div>5 pieces</div>
+                  </div>
+                </div>
+
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Unagi Shrimp Roll</span>
+                      <span class="text-primary"><small>$</small>13</span>
+                    </div>
+                    <div>eel, shrimp, crab, crunch, & avocado; 5 pieces</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Candy Roll</span>
+                      <span class="text-primary"><small>$</small>14</span>
+                    </div>
+                    <div>
+                      variety of fish, crunch, scallion, & spicy sauce; 5 pieces
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-sushi__item">
+              <h3 class="pb-2.5 text-center font-serif tracking-wider">
+                ROLLS
+              </h3>
+              <h4 class="text-center text-secondary">
+                rice outside; served with roe & sesame seeds; 8 pieces per order
+              </h4>
+
+              <div
+                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+              >
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Vegetable Roll</span>
+                      <span class="text-primary"><small>$</small>6</span>
+                    </div>
+                    <div>cucumber, kampyo, spinach, & pickle; no roe</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">California Roll</span>
+                      <span class="text-primary"><small>$</small>7.5</span>
+                    </div>
+                    <div>crab stick, avocado, & cucumber</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Crunchy Shrimp Roll</span>
+                      <span class="text-primary"><small>$</small>7.5</span>
+                    </div>
+                    <div>shrimp, crunch, & mayo</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Shrimp Avocado Roll</span>
+                      <span class="text-primary"><small>$</small>7.5</span>
+                    </div>
+                    <div>shrimp, avocado</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Crab Cream Cheese Roll</span>
+                      <span class="text-primary"><small>$</small>7.5</span>
+                    </div>
+                    <div>crab, cream cheese</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Salmon Avocado Roll</span>
+                      <span class="text-primary"><small>$</small>8.5</span>
+                    </div>
+                    <div>salmon, avocado</div>
+                  </div>
+                </div>
+
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Tuna Avocado Cucumber Roll</span>
+                      <span class="text-primary"><small>$</small>9</span>
+                    </div>
+                    <div>tuna, avocado</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Eel Roll</span>
+                      <span class="text-primary"><small>$</small>9</span>
+                    </div>
+                    <div>eel & cucumber</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Philly Roll</span>
+                      <span class="text-primary"><small>$</small>8.5</span>
+                    </div>
+                    <div>smoked salmon, cream cheese, & scallions</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Caterpillar Roll</span>
+                      <span class="text-primary"><small>$</small>13</span>
+                    </div>
+                    <div>crab stick, cucumber, & avocado on top</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Florida Roll</span>
+                      <span class="text-primary"><small>$</small>12</span>
+                    </div>
+                    <div>shrimp, eel, avocado, & cucumber</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Rainbow Roll</span>
+                      <span class="text-primary"><small>$</small>14</span>
+                    </div>
+                    <div>
+                      tuna, salmon, yellow tail, white tuna, & all on top
+                    </div>
+                  </div>
+                </div>
+
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Ebi Tempura Roll</span>
+                      <span class="text-primary"><small>$</small>8.5</span>
+                    </div>
+                    <div>shrimp tempura, avocado, spicy sauce</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Green Dragon</span>
+                      <span class="text-primary"><small>$</small>16</span>
+                    </div>
+                    <div>shrimp tempura, crunch, & avocado on top</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Red Dragon</span>
+                      <span class="text-primary"><small>$</small>20</span>
+                    </div>
+                    <div>shrimp tempura, crunch, tuna, & avocado on top</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Super Crunch</span>
+                      <span class="text-primary"><small>$</small>18</span>
+                    </div>
+                    <div>shrimp tempura, smoked salmon, & avocado on top</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Snake Roll</span>
+                      <span class="text-primary"><small>$</small>20</span>
+                    </div>
+                    <div>crab stick, avocado, & eel on top</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-sushi__item">
+              <h3 class="pb-2.5 text-center font-serif tracking-wider">
+                DEEP FRIED ROLLS
+              </h3>
+              <h4 class="text-center text-secondary">
+                served with special sauce on top
+              </h4>
+
+              <div
+                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+              >
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Dragon Roll</span>
+                      <span class="text-primary"><small>$</small>13</span>
+                    </div>
+                    <div>tuna, salmon, cream cheese, & avocado</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Volcano Roll</span>
+                      <span class="text-primary"><small>$</small>13</span>
+                    </div>
+                    <div>shrimp, crab stick, & avocado</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Firecracker Roll</span>
+                      <span class="text-primary"><small>$</small>13</span>
+                    </div>
+                    <div>spicy tuna & salmon</div>
+                  </div>
+                </div>
+
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Tamako Roll</span>
+                      <span class="text-primary"><small>$</small>13</span>
+                    </div>
+                    <div>egg, crab, avocado, & cream cheese</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Summertime</span>
+                      <span class="text-primary"><small>$</small>13</span>
+                    </div>
+                    <div>
+                      variety of fish, crab stick, avocado, & cream cheese
+                    </div>
+                  </div>
+                </div>
+
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Husband & Wife Roll</span>
+                      <span class="text-primary"><small>$</small>14</span>
+                    </div>
+                    <div>spicy crunchy crab & spicy tuna</div>
+                  </div>
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Smoothie Roll</span>
+                      <span class="text-primary"><small>$</small>13</span>
+                    </div>
+                    <div>crab, shrimp, cucumber, & cream cheese</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-sushi__item">
+              <h3 class="pb-2.5 text-center font-serif tracking-wider">
+                SALAD ROLLS
+              </h3>
+              <h4 class="text-center text-secondary">
+                served with ponzu sauce
+              </h4>
+
+              <div
+                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+              >
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Crab Salad Roll</span>
+                      <span class="text-primary"><small>$</small>15</span>
+                    </div>
+                    <div>crab stick & avocado</div>
+                  </div>
+                </div>
+
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Salmon Salad Roll</span>
+                      <span class="text-primary"><small>$</small>18</span>
+                    </div>
+                    <div>salmon & scallion</div>
+                  </div>
+                </div>
+
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Tuna Salad Roll</span>
+                      <span class="text-primary"><small>$</small>19</span>
+                    </div>
+                    <div>tuna & scallion</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-sushi__item">
+              <h3 class="pb-2.5 text-center font-serif tracking-wider">
+                FEATURED ROLLS
+              </h3>
+              <h4 class="text-center text-secondary">
+                all rolls include sesame seeds
+              </h4>
+
+              <div
+                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+              >
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Sunshine Roll</span>
+                      <span class="text-primary"><small>$</small>17</span>
+                    </div>
+                    <div>
+                      soy paper, tuna, shrimp, smelt roe, cucumber, spicy mayo,
+                      & crunch
+                    </div>
+                  </div>
+
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Magic Roll</span>
+                      <span class="text-primary"><small>$</small>17</span>
+                    </div>
+                    <div>
+                      soy paper, eel, crab, cucumber, spicy mayo, smelt roe, &
+                      crunch
+                    </div>
+                  </div>
+
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Oishi Roll</span>
+                      <span class="text-primary"><small>$</small>16</span>
+                    </div>
+                    <div>
+                      soy paper, salmon, white tuna, tomatoes, avocado, cream
+                      cheese, spicy mayo, & crunch
+                    </div>
+                  </div>
+
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Lovely Roll</span>
+                      <span class="text-primary"><small>$</small>20</span>
+                    </div>
+                    <div>
+                      soy paper, tuna, salmon, yellowtail, avocado, cream
+                      cheese, spicy mayo, & crunch
+                    </div>
+                  </div>
+                </div>
+
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Yum Yum Roll</span>
+                      <span class="text-primary"><small>$</small>16</span>
+                    </div>
+                    <div>
+                      tuna, cucumber, scallions, spicy mayo, & smelt roe; topped
+                      with mango
+                    </div>
+                  </div>
+
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Mango Paradise</span>
+                      <span class="text-primary"><small>$</small>15</span>
+                    </div>
+                    <div>
+                      salmon, shrimp, scallions, & smelt roe; topped with mango
+                    </div>
+                  </div>
+
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Butterfly Roll</span>
+                      <span class="text-primary"><small>$</small>12</span>
+                    </div>
+                    <div>
+                      shrimp tempura, romaine lettuce, cucumber, avocado, cream
+                      cheese, & smelt roe; topped with plum sauce
+                    </div>
+                  </div>
+
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Double Shrimp</span>
+                      <span class="text-primary"><small>$</small>17</span>
+                    </div>
+                    <div>
+                      shrimp tempura, cucumber, & smelt roe; topped with shrimp,
+                      avocado, & eel sauce
+                    </div>
+                  </div>
+                </div>
+
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Tropical Roll</span>
+                      <span class="text-primary"><small>$</small>13</span>
+                    </div>
+                    <div>
+                      crab, scallions, spicy mayo, & smelt roe; topped with
+                      mango
+                    </div>
+                  </div>
+
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">BeBe Roll</span>
+                      <span class="text-primary"><small>$</small>21</span>
+                    </div>
+                    <div>
+                      shrimp, avocado, cucumber, cream cheese, baked to finish
+                      with spicy crab & shrimp mix; topped with eel sauce &
+                      green onion
+                    </div>
+                  </div>
+
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Holiday Roll</span>
+                      <span class="text-primary"><small>$</small>18</span>
+                    </div>
+                    <div>
+                      crab, tuna, salmon, yellow tail, white tuna, lettuce,
+                      avocado, cucumber, daikon, & rolled with Vietnamese rice
+                      paper; topped with special ponzu sauce
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-sushi__item">
+              <h3 class="pb-2.5 text-center font-serif tracking-wider">
+                SUSHI PLATTER
+              </h3>
+              <h4 class="text-center text-secondary">
+                all rolls include sesame seeds
+              </h4>
+
+              <div
+                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+              >
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Tuna Tataki</span>
+                      <span class="text-primary"><small>$</small>19</span>
+                    </div>
+                    <div>
+                      seared marinated tuna, scallions, & ground ginger; served
+                      with ponzu sauce
+                    </div>
+                  </div>
+
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Tilapia Chip</span>
+                      <span class="text-primary"><small>$</small>13</span>
+                    </div>
+                    <div>
+                      deep-fried white fish, bed of daikon, & carrots; topped
+                      with firecracker sauce & sesame seeds
+                    </div>
+                  </div>
+                </div>
+
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Shiromino</span>
+                      <span class="text-primary"><small>$</small>15</span>
+                    </div>
+                    <div>
+                      white fish, scallions, & sesame seeds; served with ponzu
+                      sauce
+                    </div>
+                  </div>
+
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Michael Jackson</span>
+                      <span class="text-primary"><small>$</small>22</span>
+                    </div>
+                    <div>
+                      spicy tuna, avocado and jalapeno topped with tuna and
+                      spicy mayo
+                    </div>
+                  </div>
+                </div>
+
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Octopus Salad</span>
+                      <span class="text-primary"><small>$</small>16</span>
+                    </div>
+                    <div>
+                      thin slices of octopus, bed of daikon, & carrots; topped
+                      with ponzu, scallions, & sesame seeds
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-sushi__item">
+              <h3 class="text-center font-serif tracking-wider">
+                COMBINATION PLATTER, CHEF'S CHOICE
+              </h3>
+
+              <div
+                class="section-sushi__item-menu pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4"
+              >
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Small Sushi Combo</span>
+                      <span class="text-primary"><small>$</small>22</span>
+                    </div>
+                    <div>nigiri sushi & california roll; 7 pieces</div>
+                  </div>
+
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Large Sushi Combo</span>
+                      <span class="text-primary"><small>$</small>27</span>
+                    </div>
+                    <div>nigiri sushi & tuna roll; 10 pieces</div>
+                  </div>
+                </div>
+
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Small Sashimi Combo</span>
+                      <span class="text-primary"><small>$</small>25</span>
+                    </div>
+                    <div>chef choice variety of sashimi</div>
+                  </div>
+
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Large Sashimi Combo</span>
+                      <span class="text-primary"><small>$</small>32</span>
+                    </div>
+                    <div>chef choice variety of sashimi</div>
+                  </div>
+                </div>
+
+                <div class="section-sushi__item-menu-col">
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Chirashi</span>
+                      <span class="text-primary"><small>$</small>30</span>
+                    </div>
+                    <div>variety of fish on top of sushi rice</div>
+                  </div>
+
+                  <div class="pb-6">
+                    <div class="flex items-end justify-between text-base">
+                      <span class="font-bold">Mixed Salad</span>
+                      <span class="text-primary"><small>$</small>29</span>
+                    </div>
+                    <div>variety of fish served with ponzu sauce</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
 
     <script src="./src/main.js" type="module"></script>

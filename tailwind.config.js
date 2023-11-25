@@ -15,10 +15,6 @@ module.exports = {
         xl: "1200px",
         "2xl": "1400px",
       },
-      fontFamily: {
-        sans: ["Proxima Nova Rg", "sans-serif"],
-        serif: ["Sanchez", "serif"],
-      },
       container: {
         center: true,
         padding: "12px",
@@ -29,6 +25,23 @@ module.exports = {
           xl: "100%",
           "2xl": "1200px",
         },
+      },
+      fontFamily: {
+        sans: ["Proxima Nova Rg", "sans-serif"],
+        serif: ["Sanchez", "serif"],
+      },
+      colors: {
+        primary: "#f58220",
+        secondary: "#8b8c8e",
+      },
+      height: {
+        carousel: "200px",
+        carouselSm: "350px",
+        carouselMd: "450px",
+        carouselLg: "550px",
+        carouselXl: "650px",
+        carouselXxl: "750px",
+        logoHeader: "100px",
       },
     },
   },
