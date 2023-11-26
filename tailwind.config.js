@@ -33,6 +33,7 @@ module.exports = {
       colors: {
         primary: "#f58220",
         secondary: "#8b8c8e",
+        tertiary: "#f5f5f5;",
       },
       height: {
         carousel: "200px",
