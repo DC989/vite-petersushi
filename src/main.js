@@ -1,3 +1,27 @@
 import "flowbite";
-import "lazysizes";
 import "./index.css";
+import { throttle } from "lodash";
+
+const runOnScroll = () => {
+  console.log("function fired!");
+
+  if (
+    document.body.scrollTop > 132 ||
+    document.documentElement.scrollTop > 132
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+};
+
+const topFunction = () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+};
+
+let mybutton = document.getElementById("myBtn");
+
+mybutton.addEventListener("click", topFunction);
+
+window.addEventListener("scroll", throttle(runOnScroll, 250));
