@@ -1,5 +1,5 @@
-export default {
-  build: {
-    base: "/vite-petersushi/",
-  },
-};
+import { defineConfig } from "vite";
+
+export default defineConfig({
+  base: "/vite-petersushi/",
+});
