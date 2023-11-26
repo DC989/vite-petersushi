@@ -22,6 +22,6 @@ const topFunction = () => {
 
 let mybutton = document.getElementById("myBtn");
 
-mybutton.addEventListener("click", topFunction);
-
 window.addEventListener("scroll", throttle(runOnScroll, 250));
+
+mybutton.addEventListener("click", topFunction);
