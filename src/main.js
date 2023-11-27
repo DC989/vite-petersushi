@@ -1,5 +1,5 @@
-import "flowbite";
 import "./index.css";
+import { Carousel } from "flowbite";
 import { throttle } from "lodash";
 
 const runOnScroll = () => {
