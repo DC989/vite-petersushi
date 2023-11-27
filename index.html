@@ -5,19 +5,19 @@
     <link rel="icon" type="image/x-icon" href="/vite-petersushi/assets/favicon.2080b000.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Peter's Sushi &amp; Thai</title>
-    <script type="module" crossorigin src="/vite-petersushi/assets/index.e0bbc44e.js"></script>
-    <link rel="stylesheet" href="/vite-petersushi/assets/index.14220cad.css">
+    <script type="module" crossorigin src="/vite-petersushi/assets/index.c8d5b89b.js"></script>
+    <link rel="stylesheet" href="/vite-petersushi/assets/index.29507359.css">
   </head>
   <body>
-    <div id="app">
-      <header>
+    <div id="app" class="overflow-hidden">
+      <header class="header">
         <div class="container">
           <nav class="border-gray-200 bg-white dark:bg-gray-900">
             <div
               class="mx-auto flex flex-wrap items-center justify-between py-3 md:py-4"
             >
               <a
-                href="/"
+                href="#"
                 class="flex items-center space-x-3 rtl:space-x-reverse"
               >
                 <img
@@ -90,7 +90,45 @@
         </div>
       </header>
 
-      <main>
+      <header class="headerFixed fixed left-0 top-0 hidden w-full md:block">
+        <div class="container">
+          <ul
+            class="my-3 flex flex-row items-center justify-center font-serif text-sm uppercase tracking-wider rtl:space-x-reverse md:space-x-8 lg:text-base"
+          >
+            <li>
+              <a
+                href="#section-sushi"
+                class="block bg-transparent px-3 py-2 text-black hover:bg-primary hover:text-black hover:no-underline md:p-0 md:hover:bg-transparent md:hover:text-primary"
+                aria-current="page"
+                >Sushi Menu</a
+              >
+            </li>
+            <li>
+              <a
+                href="#section-lunch"
+                class="block bg-transparent px-3 py-2 text-black hover:bg-primary hover:text-black hover:no-underline md:p-0 md:hover:bg-transparent md:hover:text-primary"
+                >Lunch Menu</a
+              >
+            </li>
+            <li>
+              <a
+                href="#section-dinner"
+                class="block bg-transparent px-3 py-2 text-black hover:bg-primary hover:text-black hover:no-underline md:p-0 md:hover:bg-transparent md:hover:text-primary"
+                >Dinner Menu</a
+              >
+            </li>
+            <li>
+              <a
+                href="#section-about"
+                class="block bg-transparent px-3 py-2 text-black hover:bg-primary hover:text-black hover:no-underline md:p-0 md:hover:bg-transparent md:hover:text-primary"
+                >Our Story</a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <main class="main">
         <section id="section-carousel">
           <div
             id="default-carousel"
@@ -3098,7 +3136,7 @@
       <footer class="bg-black py-6">
         <div class="container">
           <div class="flex flex-col items-center">
-            <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
               <img
                 src="/vite-petersushi/assets/logo-footer-min.a78e6383.png"
                 alt="Peter's Sushi & Thai logo white"
@@ -3124,7 +3162,7 @@
     </div>
 
     <button
-      id="myBtn"
+      id="btn-top"
       title="Go to top"
       class="fixed bottom-3 right-3 z-50 hidden cursor-pointer rounded-full border-none bg-primary px-5 py-2.5 text-white opacity-70 outline-none hover:opacity-100 hover:outline-none focus:opacity-70 focus:outline-none"
     >
