@@ -22,8 +22,7 @@ module.exports = {
           sm: "100%",
           md: "100%",
           lg: "100%",
-          xl: "100%",
-          "2xl": "1200px",
+          xl: "1080px",
         },
       },
       fontFamily: {
@@ -36,13 +35,12 @@ module.exports = {
         tertiary: "#f5f5f5;",
       },
       height: {
-        carousel: "200px",
-        carouselSm: "350px",
-        carouselMd: "450px",
-        carouselLg: "550px",
-        carouselXl: "650px",
-        carouselXxl: "750px",
+        carousel: "60vw",
+        carouselMd: "65vw",
         logoHeader: "100px",
+      },
+      maxHeight: {
+        carouselMax: "1500px",
       },
     },
   },

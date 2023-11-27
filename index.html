@@ -9,78 +9,83 @@
   <body>
     <div id="app">
       <header>
-        <nav class="border-gray-200 bg-white dark:bg-gray-900">
-          <div
-            class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-3 md:p-4"
-          >
-            <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-              <img
-                src="./src/assets/img/logo-min.png"
-                class="h-logoHeader"
-                alt="Peter's Sushi & Thai logo"
-              />
-            </a>
-            <button
-              data-collapse-toggle="navbar-default"
-              type="button"
-              class="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
-              aria-controls="navbar-default"
-              aria-expanded="false"
+        <div class="container">
+          <nav class="border-gray-200 bg-white dark:bg-gray-900">
+            <div
+              class="mx-auto flex flex-wrap items-center justify-between py-3 md:py-4"
             >
-              <span class="sr-only">Open main menu</span>
-              <svg
-                class="h-5 w-5"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 17 14"
+              <a
+                href="/"
+                class="flex items-center space-x-3 rtl:space-x-reverse"
               >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M1 1h15M1 7h15M1 13h15"
+                <img
+                  src="./src/assets/img/logo-min.png"
+                  class="h-logoHeader"
+                  alt="Peter's Sushi & Thai logo"
                 />
-              </svg>
-            </button>
-            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-              <ul
-                class="mt-4 flex flex-col justify-between font-serif text-sm uppercase tracking-wider rtl:space-x-reverse md:mt-0 md:flex-row md:items-center md:space-x-8 md:bg-white lg:flex lg:text-base"
+              </a>
+              <button
+                data-collapse-toggle="navbar-default"
+                type="button"
+                class="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
+                aria-controls="navbar-default"
+                aria-expanded="false"
               >
-                <li>
-                  <a
-                    href="#section-sushi"
-                    class="block bg-transparent px-3 py-2 text-black hover:bg-primary hover:text-black hover:no-underline md:p-0 md:hover:bg-transparent md:hover:text-primary"
-                    aria-current="page"
-                    >Sushi Menu</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#section-lunch"
-                    class="block bg-transparent px-3 py-2 text-black hover:bg-primary hover:text-black hover:no-underline md:p-0 md:hover:bg-transparent md:hover:text-primary"
-                    >Lunch Menu</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#section-dinner"
-                    class="block bg-transparent px-3 py-2 text-black hover:bg-primary hover:text-black hover:no-underline md:p-0 md:hover:bg-transparent md:hover:text-primary"
-                    >Dinner Menu</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#section-about"
-                    class="block bg-transparent px-3 py-2 text-black hover:bg-primary hover:text-black hover:no-underline md:p-0 md:hover:bg-transparent md:hover:text-primary"
-                    >Our Story</a
-                  >
-                </li>
-              </ul>
+                <span class="sr-only">Open main menu</span>
+                <svg
+                  class="h-5 w-5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 17 14"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 1h15M1 7h15M1 13h15"
+                  />
+                </svg>
+              </button>
+              <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                  class="-mx-3 mt-4 flex flex-col justify-between font-serif text-sm uppercase tracking-wider rtl:space-x-reverse md:mx-0 md:mt-0 md:flex-row md:items-center md:space-x-8 md:bg-white lg:flex lg:text-base"
+                >
+                  <li>
+                    <a
+                      href="#section-sushi"
+                      class="block bg-transparent px-3 py-2 text-black hover:bg-primary hover:text-black hover:no-underline md:p-0 md:hover:bg-transparent md:hover:text-primary"
+                      aria-current="page"
+                      >Sushi Menu</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#section-lunch"
+                      class="block bg-transparent px-3 py-2 text-black hover:bg-primary hover:text-black hover:no-underline md:p-0 md:hover:bg-transparent md:hover:text-primary"
+                      >Lunch Menu</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#section-dinner"
+                      class="block bg-transparent px-3 py-2 text-black hover:bg-primary hover:text-black hover:no-underline md:p-0 md:hover:bg-transparent md:hover:text-primary"
+                      >Dinner Menu</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#section-about"
+                      class="block bg-transparent px-3 py-2 text-black hover:bg-primary hover:text-black hover:no-underline md:p-0 md:hover:bg-transparent md:hover:text-primary"
+                      >Our Story</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
       </header>
 
       <main>
@@ -92,7 +97,7 @@
           >
             <!-- Carousel wrapper -->
             <div
-              class="relative h-carousel overflow-hidden sm:h-carouselSm md:h-carouselMd lg:h-carouselLg xl:h-carouselXl 2xl:h-carouselXxl"
+              class="relative h-carousel max-h-carouselMax overflow-hidden md:h-carouselMd"
             >
               <!-- Item 1 -->
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
@@ -440,7 +445,7 @@
               <h4 class="text-center text-secondary">2 pieces per order</h4>
 
               <div
-                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-sushi__item-menu-col">
                   <div class="pb-6">
@@ -556,7 +561,7 @@
               <h4 class="text-center text-secondary">seaweed outside</h4>
 
               <div
-                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-sushi__item-menu-col">
                   <div class="pb-6">
@@ -636,7 +641,7 @@
               </h4>
 
               <div
-                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-sushi__item-menu-col">
                   <div class="pb-6">
@@ -779,7 +784,7 @@
               </h4>
 
               <div
-                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-sushi__item-menu-col">
                   <div class="pb-6">
@@ -852,7 +857,7 @@
               </h4>
 
               <div
-                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-sushi__item-menu-col">
                   <div class="pb-6">
@@ -895,7 +900,7 @@
               </h4>
 
               <div
-                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-sushi__item-menu-col">
                   <div class="pb-6">
@@ -1036,7 +1041,7 @@
               </h4>
 
               <div
-                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-sushi__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-sushi__item-menu-col">
                   <div class="pb-6">
@@ -1107,7 +1112,7 @@
               </h3>
 
               <div
-                class="section-sushi__item-menu pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4"
+                class="section-sushi__item-menu pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11"
               >
                 <div class="section-sushi__item-menu-col">
                   <div class="pb-6">
@@ -1178,7 +1183,7 @@
               <h3 class="text-center font-serif tracking-wider">APPETIZERS</h3>
 
               <div
-                class="section-lunch__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-lunch__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-lunch__item-menu-col">
                   <div class="pb-6">
@@ -1268,7 +1273,7 @@
               <h3 class="text-center font-serif tracking-wider">SOUPS</h3>
 
               <div
-                class="section-lunch__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-lunch__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-lunch__item-menu-col">
                   <div class="pb-6">
@@ -1329,7 +1334,7 @@
               <h4 class="text-center text-secondary">served with egg roll</h4>
 
               <div
-                class="section-lunch__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-lunch__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-lunch__item-menu-col">
                   <div class="pb-6">
@@ -1451,7 +1456,7 @@
               </h4>
 
               <div
-                class="section-lunch__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-lunch__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-lunch__item-menu-col">
                   <div class="pb-6">
@@ -1520,7 +1525,7 @@
               </h4>
 
               <div
-                class="section-lunch__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-lunch__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-lunch__item-menu-col">
                   <div class="pb-6">
@@ -1569,7 +1574,7 @@
               </h4>
 
               <div
-                class="section-lunch__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-lunch__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-lunch__item-menu-col">
                   <div class="pb-6">
@@ -1627,7 +1632,7 @@
               </h4>
 
               <div
-                class="section-lunch__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-lunch__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-lunch__item-menu-col">
                   <div class="pb-6">
@@ -1710,7 +1715,7 @@
               <h3 class="text-center font-serif tracking-wider">BEVERAGES</h3>
 
               <div
-                class="section-lunch__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-lunch__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-lunch__item-menu-col">
                   <div class="pb-6">
@@ -1788,7 +1793,7 @@
               <h3 class="text-center font-serif tracking-wider">APPETIZERS</h3>
 
               <div
-                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-dinner__item-menu-col">
                   <div class="pb-6">
@@ -1921,7 +1926,7 @@
               <h3 class="text-center font-serif tracking-wider">SOUPS</h3>
 
               <div
-                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-dinner__item-menu-col">
                   <div class="pb-6">
@@ -1979,7 +1984,7 @@
               <h3 class="text-center font-serif tracking-wider">SALADS</h3>
 
               <div
-                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-dinner__item-menu-col">
                   <div class="pb-6">
@@ -2041,7 +2046,7 @@
               </h3>
 
               <div
-                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-dinner__item-menu-col">
                   <div class="pb-6">
@@ -2215,7 +2220,7 @@
               </h4>
 
               <div
-                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-dinner__item-menu-col">
                   <div class="pb-6">
@@ -2282,7 +2287,7 @@
               </h4>
 
               <div
-                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-dinner__item-menu-col">
                   <div class="pb-6">
@@ -2351,7 +2356,7 @@
               </h4>
 
               <div
-                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-dinner__item-menu-col">
                   <div class="pb-6">
@@ -2485,7 +2490,7 @@
               </h4>
 
               <div
-                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-dinner__item-menu-col">
                   <div class="pb-6">
@@ -2585,7 +2590,7 @@
               </h4>
 
               <div
-                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-dinner__item-menu-col">
                   <div class="pb-6">
@@ -2677,7 +2682,7 @@
               <h3 class="text-center font-serif tracking-wider">KIDS'S MENU</h3>
 
               <div
-                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-dinner__item-menu-col">
                   <div class="pb-6">
@@ -2709,7 +2714,7 @@
               </h3>
 
               <div
-                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-dinner__item-menu-col">
                   <div class="pb-6">
@@ -2768,7 +2773,7 @@
               <h3 class="text-center font-serif tracking-wider">DESSERTS</h3>
 
               <div
-                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-dinner__item-menu-col">
                   <div class="pb-6">
@@ -2793,7 +2798,7 @@
               <h3 class="text-center font-serif tracking-wider">BEVERAGES</h3>
 
               <div
-                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-4 md:pb-11"
+                class="section-dinner__item-menu pb-5 pt-10 text-secondary md:grid md:grid-cols-3 md:gap-11 md:pb-11"
               >
                 <div class="section-dinner__item-menu-col">
                   <div class="pb-6">
@@ -2875,7 +2880,7 @@
           class="bg-tertiary py-12 text-secondary md:py-20"
         >
           <div class="container">
-            <div class="md:grid md:grid-cols-3 md:gap-4 lg:gap-16 xl:gap-32">
+            <div class="md:grid md:grid-cols-3 md:gap-11 lg:gap-16 xl:gap-32">
               <div class="col-span-2">
                 <h2 class="mb-5 font-serif text-3xl text-primary md:mb-7">
                   The start of something good.
